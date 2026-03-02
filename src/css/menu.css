@@ -1,0 +1,114 @@
+
+.menu-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 25px;
+    width: 80%;
+    max-width: 975px;
+    margin-top: 25px;
+}
+
+.card
+{
+    box-shadow: 2px 4px 5px rgba(0,0,0,0.4);
+    display: grid;
+    grid-template-columns: 1fr 150px;
+    grid-template-rows: 150px;
+}
+
+.menu-img
+{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.card-info-container
+{
+    display: grid;
+    grid-template-rows: 1fr 40px;
+}
+
+.card-info-top-container
+{
+    padding: 15px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.food-name
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.description, .price
+{
+    font-size: 14px;
+}
+
+.description
+{
+    color: rgb(100, 100, 100);
+}
+
+.price
+{
+    color: green;
+}
+
+.tags-container
+{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    gap: 10px;
+}
+
+.tag
+{
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 5px 6px;
+    border-radius: 3px;
+}
+
+.tag:hover
+{
+    transform: scale(1.1);
+}
+
+#popular-tag
+{
+    background-color: #f01b1e;
+}
+
+#new-tag
+{
+    background-color: rgb(4, 122, 4);
+}
+
+#vegan-tag
+{
+    background-color: rgb(83, 192, 83);
+}
+
+#budget-tag
+{
+    background-color: lightskyblue;
+}
+
+#protein-tag
+{
+    background-color: orange;
+}
+
+#set-tag
+{
+    background-color: purple;
+}

@@ -1,0 +1,22 @@
+.home-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    min-width: 365px;
+    gap: 15px;
+}
+
+.tagline
+{
+    font-style: italic;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+}
+
+.description
+{
+    font-size: 15px;
+    max-width: 650px;
+}
